@@ -1,5 +1,5 @@
 ## goldenSearch.m
-This function is used to find a minimum that is restrained within a given interval with an error of 0.001.
+This function uses the golden search method accompanied by an inputted funtion and interval to determine the minimum point enclosed. It breaks once the estimate is within 0.001 of the actual value.
 
   INPUTS
   - function (f)
